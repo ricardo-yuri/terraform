@@ -9,19 +9,19 @@
 <h1 align="center">Terraform</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/terraform?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/ricardo-yuri/terraform?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{YOUR_GITHUB_USERNAME}}/terraform?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/ricardo-yuri/terraform?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{YOUR_GITHUB_USERNAME}}/terraform?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/ricardo-yuri/terraform?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/{{YOUR_GITHUB_USERNAME}}/terraform?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/ricardo-yuri/terraform?color=56BEB8">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/terraform?color=56BEB8" /> -->
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/ricardo-yuri/terraform?color=56BEB8" /> -->
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{YOUR_GITHUB_USERNAME}}/terraform?color=56BEB8" /> -->
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/ricardo-yuri/terraform?color=56BEB8" /> -->
 
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{YOUR_GITHUB_USERNAME}}/terraform?color=56BEB8" /> -->
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/ricardo-yuri/terraform?color=56BEB8" /> -->
 </p>
 
 <!-- Status -->
@@ -46,27 +46,23 @@
 
 ## :dart: About ##
 
-Meus estudos iniciais sobre gerenciar estrutura com Terraform, seguindo as aulas do Alura
+Meus estudos iniciais sobre gerenciar estrutura com Terraform, seguindo as aulas do Alura.
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: Terraform;\
+:heavy_check_mark: Estudo inicial;\
+:heavy_check_mark: Seguindo o Curso alura;
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [Terraform](https://www.terraform.io/)
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) installed.
 
 ## :checkered_flag: Starting ##
 
@@ -74,16 +70,16 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 # Clone this project
 $ git clone https://github.com/ricardo-yuri/terraform.git
 
-# Access
-$ cd terraform
+# Install terraform on debian - Repository Configuration
+$ curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
 
-# Install dependencies
-$ yarn
+# Oficial repository
+$ sudo apt-add-repository "deb [arch=$(dpkg --print-architecture)] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
 
-# Run the project
-$ yarn start
+# Run apt install
+$ sudo apt install terraform
 
-# The server will initialize in the <http://localhost:3000>
+# 
 ```
 
 ## :memo: License ##
@@ -91,7 +87,7 @@ $ yarn start
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/ricardo-yuri" target="_blank">Ricardo-Yuri</a>
+Made with :heart: by <a href="https://github.com/ricardo-yuri" target="_blank">Ricardo Yuri</a>
 
 &#xa0;
 
